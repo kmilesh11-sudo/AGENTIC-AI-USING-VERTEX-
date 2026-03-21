@@ -10,7 +10,7 @@ from rag_agent.tools.rag_query import rag_query
 
 root_agent = Agent(
     name="RagAgent",
-    # Using Gemini 2.5 Flash for best performance with RAG operations
+    # Using Gemini 2.5 Flash for RAG operations
     model="gemini-2.5-flash",
     description="Vertex AI RAG Agent",
     tools=[

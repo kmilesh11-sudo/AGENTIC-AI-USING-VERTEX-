@@ -1,0 +1,18 @@
+[
+  {
+    "name": "case12a418",
+    "data": [
+      {
+        "query": "extract education",
+        "expected_tool_use": [],
+        "expected_intermediate_agent_responses": [],
+        "reference": "Here's the education section from the document:\n\n**Education**\n\n*   **BACHELOR IN TECHNOLOGY**\n    *   CHENNAI INSTITUTE OF TECHNOLOGY\n    *   IKUNDATHUR, CHENNAI\n    *   2025 - 2029 (FRESHMEN)\n    *   COMPUTER SCIENCE AND ENGINEERING\n\n*   **SENIOR SCHOOL (12th)**\n    *   CHETTINAD VIDYASHRAM\n    *   R.A PURAM, CHENNAI\n    *   Passed: 2025\n    *   PCM - 70.04% (CBSE)\n\n*   **HIGH SCHOOL (10th)**\n    *   D.A.V PUBLIC SCHOOL\n    *   VELACHERY, CHENNAI\n    *   Passed: 2023\n    *   85% (CBSE)"
+      }
+    ],
+    "initial_session": {
+      "state": {},
+      "app_name": "rag_agent",
+      "user_id": "user"
+    }
+  }
+]
